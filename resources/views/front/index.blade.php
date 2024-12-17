@@ -194,7 +194,7 @@
 <!-- Gallery Section-->
 <section class="gallery-section">
     <div class="colorful-stats-section">
-        <h1>Our Latest One</h1>
+        <h1>Our Latest Galleries</h1>
     </div>
     <div class="gallery-container owl-carousel owl-theme">
         @foreach($galleries as $gallery)
