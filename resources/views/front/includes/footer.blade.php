@@ -1,34 +1,34 @@
 <!--Main Footer-->
 
 <footer class="main-footer">
-<div class="inner-box" style="background-image: url(images/Banner3.jpg)">
-    <div class="auto-container">
-   
-        <!--Widgets Section-->
-        <div class="widgets-section">
-            <div class="row clearfix">
+    <div class="inner-box" style="background-image: url(images/Banner3.jpg)">
+        <div class="auto-container">
 
-                <!--Footer Column-->
-                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget links-widget">
-                        <h2>Quick Links</h2>
-                        <div class="row clearfix">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
 
-                            <div class="column col-lg-6 col-md-6 col-sm-12">
-                                <ul class="footer-link">
-                                    <li><a href="{{route('page',['about-us'])}}">About Us</a></li>
-                                    <li><a href="{{route('page',['teams'])}}">Our Team</a></li>
+                    <!--Footer Column-->
+                    <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget links-widget">
+                            <h2>Quick Links</h2>
+                            <div class="row clearfix">
 
-                                    <!-- <li><a href="{{route('downloads')}}">Download</a></li> -->
-                                    <!-- <li><a href="{{route('news')}}">News</a></li> -->
-                                    <li><a href="{{route('galleries')}}"> Gallery</a></li>
-                                    <li><a href="{{route('contactUs')}}">Contact Us</a></li>
-                                </ul>
+                                <div class="column col-lg-6 col-md-6 col-sm-12">
+                                    <ul class="footer-link">
+                                        <li><a href="{{route('page',['about-us'])}}">About Us</a></li>
+                                        <li><a href="{{route('page',['teams'])}}">Our Team</a></li>
+
+                                        <!-- <li><a href="{{route('downloads')}}">Download</a></li> -->
+                                        <!-- <li><a href="{{route('news')}}">News</a></li> -->
+                                        <li><a href="{{route('galleries')}}"> Gallery</a></li>
+                                        <li><a href="{{route('contactUs')}}">Contact Us</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--  <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                    <!--  <div class="footer-column col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
                         <h2>Useful Links</h2>
                         <div class="row clearfix">
@@ -43,8 +43,8 @@
                     </div>
                 </div> -->
 
-                <!--Footer Column-->
-                <!-- <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <!--Footer Column-->
+                    <!-- <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div class="footer-widget news-widget">
                         <h2>Updates</h2>
 
@@ -65,15 +65,15 @@
                     </div>
                 </div> -->
 
-                <!--Footer Column-->
-                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget newsletter-widget">
-                        <!-- <h2>Newsletter Sign Up</h2> -->
-                        <div class="widget-content">
-                            <!-- <div class="message-icon flaticon-letter"></div>
+                    <!--Footer Column-->
+                    <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget newsletter-widget">
+                            <!-- <h2>Newsletter Sign Up</h2> -->
+                            <div class="widget-content">
+                                <!-- <div class="message-icon flaticon-letter"></div>
                             <div class="text">Subcribe us for latest news and updates.</div> -->
-                            <!--Newsletter Form-->
-                            <!-- <div class="newsletter-form">
+                                <!--Newsletter Form-->
+                                <!-- <div class="newsletter-form">
                                 <form method="post" action="contact.html">
                                     <div class="form-group clearfix">
                                         <input type="text" name="name" value="" placeholder="Name" required>
@@ -82,20 +82,20 @@
                                     </div>
                                 </form>
                             </div> -->
-                            <!--Social Icon One-->
-                            <ul class="social-icon-one">
-                                <li><a href="{{$dash_setting->facebook}}"><span class="icon fa fa-facebook"></span>facebook</a></li>
-                                <!-- <li><a href="{{$dash_setting->twitter}}"><span class="icon fa fa-twitter"></span>twitter</a></li>
+                                <!--Social Icon One-->
+                                <ul class="social-icon-one">
+                                    <li><a href="{{$dash_setting->facebook}}"><span class="icon fa fa-facebook"></span>facebook</a></li>
+                                    <!-- <li><a href="{{$dash_setting->twitter}}"><span class="icon fa fa-twitter"></span>twitter</a></li>
                                 <li><a href="{{$dash_setting->linkedin}}"><span class="icon fa fa-linkedin"></span>linkedin</a></li> -->
-                                <li><a href="{{$dash_setting->instagram}}"><span class="icon fa fa-instagram"></span>instagram</a></li>
-                            </ul>
+                                    <li><a href="{{$dash_setting->instagram}}"><span class="icon fa fa-instagram"></span>instagram</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -114,7 +114,7 @@
 
                 <div class="column col-lg-5 col-md-12 col-sm-12">
                     <ul class="footer-nav clearfix">
-                        <li><a href="https://www.facebook.com/umanga.bhattarai/">Developed By: Umanga Bhattarai</a></li>
+                        <li><a href="https://www.facebook.com/umanga.bhattarai/" target="_blank">Developed By: Umanga Bhattarai</a></li>
                     </ul>
                 </div>
 
