@@ -82,7 +82,7 @@
                                         <li class="current"><a href="/">Home</a></li>
                                         <li class="dropdown"><a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                             <ul>
-                                                <li><a href="{{route('page',['about-us'])}}">About Company</a></li>
+                                                <li><a href="{{route('page',['about-us'])}}">About Montessori</a></li>
                                                 <!-- <li><a href="{{route('page',['teams'])}}">Our Team</a></li> -->
                                                 <li><a href="{{route('page',['message'])}}">Message from Principal</a></li>
                                                 <!-- <li><a href="{{route('page',['shareholders'])}}">Shareholders</a></li> -->
@@ -153,7 +153,7 @@
                                     <li class="current"><a href="/">Home</a></li>
                                     <li class="dropdown"><a href="#">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         <ul>
-                                            <li><a href="{{route('page',['about-us'])}}">About Company</a></li>
+                                            <li><a href="{{route('page',['about-us'])}}">About Montessori</a></li>
                                             <!-- <li><a href="{{route('page',['teams'])}}">Our Team</a></li> -->
                                             <li><a href="{{route('page',['message'])}}">Message from Principal</a></li>
                                             <!-- <li><a href="{{route('page',['shareholders'])}}">Shareholders</a></li> -->
