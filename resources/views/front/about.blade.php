@@ -6,7 +6,7 @@
 
 <section class="page-title" style="background-image:url('{{asset('images/main/'.$page->image2)}}')">
     <div class="auto-container">
-        <h1>About Our Company</h1>
+        <h1>About Our Montessori</h1>
         <ul class="page-breadcrumb">
             <li><a href="/">Home</a></li>
             <li>About Us</li>
