@@ -114,7 +114,7 @@
 
                 <div class="column col-lg-5 col-md-12 col-sm-12">
                     <ul class="footer-nav clearfix">
-                        <li><a href="https://www.facebook.com/">Developed By: Umanga Bhattarai</a></li>
+                        <li><a href="https://www.facebook.com/umanga.bhattarai/">Developed By: Umanga Bhattarai</a></li>
                     </ul>
                 </div>
 
