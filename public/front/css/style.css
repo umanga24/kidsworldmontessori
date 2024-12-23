@@ -31,6 +31,9 @@ font-family: 'Alegreya Sans', sans-serif;*/
 }
 :root{
 	--main-color:#389ADD;
+
+	--primary-font-family: 'Cabin Sketch', cursive;
+	--secondary-font-family: 'Handlee', cursive
 }
 
 /*** 
@@ -42,7 +45,7 @@ font-family: 'Alegreya Sans', sans-serif;*/
  ***/
 
 body {
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 	font-size:17px;
 	color:#777777;
 	line-height:1.7em;
@@ -74,7 +77,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	line-height:1.6em;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 input,button,select,textarea{
@@ -163,7 +166,7 @@ img{
 	top:-1px;
 	color:var(--main-color);
 	font-weight:600;
-	font-family: "Flaticon";
+	font-family: var(--secondary-font-family);
 }
 
 /*List Style Two*/
@@ -267,7 +270,7 @@ img{
 	cursor: pointer;
 	border:2px solid var(--main-color);
 	text-transform:capitalize;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .btn-style-three .arrow{
@@ -293,7 +296,7 @@ img{
 	cursor: pointer;
 	border:2px solid #e9ede7;
 	text-transform:capitalize;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .btn-style-four .arrow{
@@ -733,7 +736,7 @@ img{
 	margin-top: 30px;
 	padding:12px 0px 12px 32px;
 	border-left: 1px solid #dde4db;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-header .header-upper .contact-number .number-inner{
@@ -832,7 +835,7 @@ img{
 	padding: 23px 22px;
 	display: inline-block;
 	background-color: #4d903b;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--secondary-font-family);
 }
 
 .main-header .outer-box .buttons-box .theme-btn .icon-box{
@@ -857,7 +860,7 @@ img{
 	display: inline-block;
 	text-transform: uppercase;
 	border-right: 1px solid #dde4db;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-header .outer-box .option-list li a{
@@ -890,7 +893,7 @@ img{
 }
 
 .main-header .outer-box .option-list li strong{
-	font-family: 'Alegreya Sans', sans-serif;	
+	font-family: var(--primary-font-family);	
 	color:#fff
 }
 
@@ -1192,7 +1195,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .header-style-two .main-menu .navigation > li{
@@ -1601,20 +1604,20 @@ img{
 	-ms-transform: translateY(50px);
 	-o-transform: translateY(50px);
 	transform: translateY(50px);
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--secondary-font-family);
 }
 
 .main-slider h3 span{
 	font-size:72px;
 	font-weight: 700;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-slider h3.alternate{
 	color:#1f1f1f;
 	font-size: 48px;
 	font-weight: 700;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-slider h3.alternate span{
@@ -1625,7 +1628,7 @@ img{
 	color:#ffffff;
 	font-size: 48px;
 	font-weight: 700;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-slider .active h3{
@@ -1656,7 +1659,7 @@ img{
 	-ms-transform: translateY(50px);
 	-o-transform: translateY(50px);
 	transform: translateY(50px);
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .main-slider .text.alternate{
@@ -1925,7 +1928,7 @@ img{
 	font-weight: 500;
 	margin-top: 15px;
 	text-transform: uppercase;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 .welcome-section .content-column .inner-column .percent span{
@@ -2178,7 +2181,7 @@ img{
 	border-right: 1px solid #eef2ed;
 	text-transform:uppercase;
 	transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .window-tab-section .window-tabs .tab-btns .tab-btn .icon{
@@ -2540,7 +2543,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .gallery-section .ms-skin-default .ms-nav-next:after{
@@ -2596,7 +2599,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .gallery-section .ms-skin-default .ms-nav-prev:after{
@@ -3538,7 +3541,7 @@ img{
 
 .main-footer .footer-bottom{
 	position: relative;
-	
+	padding: 18px 0px;
 	background-color: #ffffff;
 	height: 82px;
 }
@@ -3937,7 +3940,7 @@ img{
 	font-weight:700;
 	margin:0px 0px;
 	color:var(--main-color);
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 .fact-counter .count-outer .count-text{
@@ -3945,7 +3948,7 @@ img{
 	font-weight:700;
 	color:var(--main-color);
 	font-size: 60px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 .fact-counter .column .counter-title{
@@ -3957,7 +3960,7 @@ img{
 	text-transform:capitalize;
 	display:block;
 	letter-spacing:1px;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 /*** 
@@ -4583,7 +4586,7 @@ img{
 	font-size: 18px;
 	margin: 0px 4px;
 	display: inline-block;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .product-block .inner-box .lower-box .product-price li.discount{
@@ -4622,7 +4625,7 @@ img{
 	padding: 13px 44px;
 	display: inline-block;
 	background-color: var(--main-color);
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 /*** 
@@ -4755,7 +4758,7 @@ img{
 	line-height: 1.4em;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .feedback-block .inner-box .content-column h2{
@@ -4786,7 +4789,7 @@ img{
 	position: relative;
 	color: var(--main-color);
 	font-size: 14px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 /*** 
@@ -4907,7 +4910,7 @@ img{
 	padding:12px 18px;
 	font-weight:400;
 	background:none;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 	border:1px solid rgba(255,255,255,0.10);
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -5023,7 +5026,7 @@ img{
 	background-color: #ffffff;
 	text-transform:uppercase;
 	transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .services-section-three .appointment-tabs .btns-outer .appointment{
@@ -5367,6 +5370,8 @@ img{
 	display:inline-block;
 	margin-right:10px;
 	padding-right:10px;
+
+
 	color:#ffffff;
 	font-size:18px;
 	font-weight:500;
@@ -5723,7 +5728,7 @@ img{
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .accordion-box .block .icon-outer{
@@ -5901,7 +5906,7 @@ img{
 	font-size :16px;
 	font-weight: 500;
 	margin-bottom: 10px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .appointment-form-two .form-group input[type="text"],
@@ -6047,7 +6052,7 @@ img{
 	line-height: 1.6em;
 	margin-top: 3px;
 	color:#7c7b7b;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .windows-page-section .title-box .text a{
@@ -6347,7 +6352,7 @@ img{
 	color: #262626;
 	font-size: 18px;
 	font-weight: 500;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .choose-block .inner-block .choose-text{
@@ -6458,7 +6463,7 @@ img{
 	font-size: 18px;
 	font-weight: 500;
 	margin-bottom: 14px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .repair-block .inner-block .repair-text{
@@ -6522,7 +6527,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .window-block .inner-block:hover .window-heading{
@@ -6535,7 +6540,7 @@ img{
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 1.4em;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -6776,7 +6781,7 @@ img{
 	padding: 23px 22px;
 	display: inline-block;
 	background-color: #4d903b;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .buttons-widget .theme-btn .icon-box{
@@ -6980,7 +6985,7 @@ img{
 	border-right: 1px solid #eef2ed;
 	text-transform:uppercase;
 	transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .price-page-section .price-list-nav .nav-list li a{
@@ -7176,7 +7181,7 @@ img{
 	border: 2px solid #e9ede7;
 	text-transform:capitalize;
 	transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .price-info-tabs .price-tabs .tab-btns .tab-btn.active-btn,
@@ -7216,7 +7221,7 @@ img{
 	font-weight: 500;
 	margin-top: 35px;
 	display: block;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .price-info-tabs .window-list{
@@ -7240,7 +7245,7 @@ img{
 	max-width: 180px;
 	width: 100%;
 	display: inline-block;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 /*** 
@@ -7294,7 +7299,7 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 .gallery-tab .product-tab-btns .p-tab-btn:last-child::after{
@@ -7655,7 +7660,7 @@ img{
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 .gallery-section-four .filters .filter.active,
@@ -7959,7 +7964,7 @@ img{
 	color:#262626;
 	line-height:1.5em;
 	text-transform:capitalize;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .sidebar .popular-posts .post .text a{
@@ -8398,7 +8403,7 @@ img{
 	font-size:18px;
 	font-weight:500;
 	text-transform:capitalize;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .blog-single .inner-box blockquote .quote-icon{
@@ -8525,7 +8530,7 @@ img{
 	color:#262626;
 	font-weight:700;
 	text-transform:uppercase;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--secondary-font-family);
 }
 
 /*Author Box*/
@@ -8666,7 +8671,7 @@ img{
 	font-size:18px;	
 	font-weight:500;
 	margin-bottom:15px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .comments-area .comment-info a{
@@ -9037,7 +9042,7 @@ img{
 	text-align: right;
 	line-height:24px;
 	padding:13px 0px;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: var(--primary-font-family);
 }
 
 .our-shop .items-sorting .form-group{
@@ -9496,7 +9501,7 @@ img{
 	cursor:pointer;
 	padding:10px 20px 10px;
 	transition:all 500ms ease;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .shop-single .product-details .prod-tabs .tab-btns .tab-btn.active-btn:after,
@@ -9684,7 +9689,7 @@ img{
 	border-radius:0px;
 	background:#e9ede7;
 	color:#262626;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .cart-table thead tr th{
@@ -9737,7 +9742,7 @@ img{
 	color:#262626;
 	font-weight:500;
 	margin-bottom:5px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .cart-table tbody tr .prod-column .column-box{
@@ -9775,7 +9780,7 @@ img{
 	font-weight:400;
 	color:var(--main-color);
 	font-size:20px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .cart-table tbody tr .remove-btn{
@@ -9974,7 +9979,7 @@ img{
 	color:#262626;
 	font-weight:400;
 	border-right:1px solid #f0f0f0;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .cart-section .totals-table li{
@@ -10158,7 +10163,7 @@ img{
 	font-size:16px;
 	font-weight:500;
 	border-left:2px solid var(--main-color);
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-page .default-links li a{
@@ -10195,7 +10200,7 @@ img{
 	color:#262626;	
 	font-size:16px;
 	font-weight:400;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-form .form-group .field-label sup{
@@ -10252,7 +10257,7 @@ img{
 	font-size:16px;
 	cursor:pointer;
 	color:var(--main-color);
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-page .lower-content{
@@ -10288,7 +10293,7 @@ img{
 	font-size: 18px;
 	width: 60px;
 	font-weight: 500;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-page .lower-content .order-column .cart-table tbody tr .prod-column .column-box .prod-thumb{
@@ -10342,7 +10347,7 @@ img{
 	color:#262626;
 	font-size:18px;
 	border-right:1px solid #d9dfd7;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-page .lower-content .totals-table li:last-child{
@@ -10393,7 +10398,7 @@ img{
 	font-weight:400;	
 	color:#262626;
 	font-size:18px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .checkout-page .payment-options li .radio-option label strong a{
@@ -10524,14 +10529,14 @@ img{
 	color: #262626;
 	font-size: 18px;
 	font-weight:500;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .styled-form .form-group label.remember-me{
 	color: #262626;
 	font-size: 18px;
 	font-weight:500;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-family: var(--primary-font-family);
 }
 
 .styled-form .form-group .adon-icon{
