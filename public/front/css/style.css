@@ -3538,7 +3538,7 @@ img{
 
 .main-footer .footer-bottom{
 	position: relative;
-	padding: 18px 0px;
+	/* padding: 18px 0px; */
 	background-color: #ffffff;
 	height: 82px;
 }
