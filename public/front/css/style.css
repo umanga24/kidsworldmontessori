@@ -1842,7 +1842,7 @@ img{
 
 .welcome-section {
     position: relative;
-    padding: 90px 0px 90px;
+    padding: 90px 0px 76px;
     background: #afcce01a;
 }
 
@@ -1877,6 +1877,7 @@ img{
 	width: 100%;
 	display: block;
 	height: 415px;
+	border-radius: 20px;
 }
 
 .welcome-section .content-column{
@@ -5508,6 +5509,7 @@ img{
 .team-block .inner-box{
 	position: relative;
 	overflow: hidden;
+	border-radius: 20px;
 }
 
 .team-block .inner-box .image{
@@ -10971,7 +10973,7 @@ table, th, td {
 /* Gallery section in home page */
 
 .gallery-section {
-    padding: 20px 0;
+   
     background-color: #f9f9f9; /* Light background for contrast */
     text-align: center;
 }
