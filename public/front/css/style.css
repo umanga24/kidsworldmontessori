@@ -10709,6 +10709,10 @@ h3.entry-title {
 	width: 100%;
 	object-fit: cover;
 }
+
+.message-wrapper p{
+	color: #009dea;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: var(--main-color);
