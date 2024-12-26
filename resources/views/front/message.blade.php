@@ -14,10 +14,10 @@
 
 <section class="page-title" style="background-image:url('{{asset('images/main/'.$page->image2)}}')">
     <div class="auto-container">
-        <h1>Message from Chairman</h1>
+        <h1>Message from Principal</h1>
         <ul class="page-breadcrumb">
             <li><a href="/">Home</a></li>
-            <li>Message from Chairman</li>
+            <li>Message from Principal</li>
         </ul>
     </div>
 </section>
