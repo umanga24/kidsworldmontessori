@@ -31,6 +31,7 @@ font-family: 'Alegreya Sans', sans-serif;*/
 }
 :root{
 	--main-color:#389ADD;
+	--secondary-color:#e20e0e;
 
 	--primary-font-family: 'Frank Ruhl Libre', serif;
 	--secondary-font-family: 'Handlee', cursive
@@ -62,7 +63,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:var(--main-color);
+	color:var(--secondary-color);
 }
 
 button,
