@@ -47,7 +47,7 @@
 							<label>Title</label>
 							<input type="text" name="title" class="form-control" value="{{$detail->title}}" disabled>
 						</div>
-						@if($detail->slug=='message')
+						@if($detail->slug=='message' ||$detail->slug=='suggestion')
 						<div class="form-group">
 							<label>Name</label>
 							<input id="name" name="name" class="form-control" value="{{$detail->name}}" />
@@ -142,7 +142,7 @@
 							<img src="{{asset('images/main/'.$detail->image1)}}" width="150" height="150" class="img-responsive">
 							@endif
 						</div>
-						@if($detail->slug=='message' || $detail->slug=='about-us')
+						@if($detail->slug=='message' || $detail->slug=='about-us' || $detail->slug=='suggestion')
 						<div class="form-group">
 							<label>Banner Image</label>
 							<input type="file" name="image2" class="form-control">

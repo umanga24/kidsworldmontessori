@@ -190,6 +190,10 @@ class DefaultController extends Controller
 
                 return view('front.message', compact('page'));
             }
+            if ($slug == 'suggestion') {
+
+                return view('front.suggestion', compact('page'));
+            }
             abort(404);
         } else {
             abort(404);
