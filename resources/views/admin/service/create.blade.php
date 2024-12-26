@@ -74,10 +74,10 @@
 					   <input type="file" name="image" class="form-control">
 					</div>
 					
-				<!-- <div class="form-group">
+				<div class="form-group">
 					   <label>Banner Image</label>
 					   <input type="file" name="banner_image" class="form-control">
-					</div>	 -->
+					</div>	
 				</div>
 			</div>
 			<div class="box box-warning">
