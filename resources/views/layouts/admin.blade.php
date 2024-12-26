@@ -160,14 +160,14 @@
           </li>
           <li class="treeview ">
             <a href="#">
-              <i class="fa fa-gift"></i> <span>Projects</span>
+              <i class="fa fa-gift"></i> <span>Services</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
             </a>
             <ul class="treeview-menu">
-              <li class=""><a href="{{route('project.create')}}"><i class="fa fa-circle-o text-yellow"></i> Add Project</a></li>
-              <li class=""><a href="{{route('project.index')}}"><i class="fa fa-circle-o text-yellow"></i> All Projects</a></li>
+              <li class=""><a href="{{route('project.create')}}"><i class="fa fa-circle-o text-yellow"></i> Add Services</a></li>
+              <li class=""><a href="{{route('project.index')}}"><i class="fa fa-circle-o text-yellow"></i> All Services</a></li>
 
             </ul>
           </li>

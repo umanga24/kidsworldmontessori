@@ -51,14 +51,14 @@
 						<label>Slug</label>
 						<input type="text" name="slug" class="form-control" value="{{$detail->slug}}">
 					</div>
-					<div class="form-group">
+					<!-- <div class="form-group">
 						<label>Quote</label>
 						<textarea  name="short_description" class="form-control">{{$detail->short_description}}</textarea>
 					</div>
 					<div class="form-group">
 						<label>Description(required)</label>
 						<textarea id="my-editor" name="description" class="form-control">{{$detail->description}}</textarea>
-					</div>
+					</div> -->
 					
 				</div>
 			</div>
@@ -78,13 +78,13 @@
 					   @endif
 					</div>
 					
-						<div class="form-group">
-					   <label>Banner Image</label>
-					   <input type="file" name="banner_image" class="form-control">
-					   @if($detail->banner_image)
-					   <img src="{{asset('images/listing/'.$detail->banner_image)}}" width="100" height="100">
-					   @endif
-					</div>
+							<!-- <div class="form-group">
+						<label>Banner Image</label>
+						<input type="file" name="banner_image" class="form-control">
+						@if($detail->banner_image)
+						<img src="{{asset('images/listing/'.$detail->banner_image)}}" width="100" height="100">
+						@endif
+						</div> -->
 				</div>
 			</div>
 			<div class="box box-warning">

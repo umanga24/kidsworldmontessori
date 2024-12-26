@@ -172,7 +172,7 @@
                             <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="{{$service->title}}">
                         </div>
                         <div class="custom-lower-content">
-                            <h3><a href="{{route('serviceInner',$service->slug)}}">{{$service->title}}</a></h3>
+                            <h3><a href="">{{$service->title}}</a></h3>
                             <!-- <p>{{$service->short_description}}</p> -->
                             <!-- <a href="{{route('serviceInner',$service->slug)}}" class="custom-service-link">Learn More</a> -->
                         </div>
