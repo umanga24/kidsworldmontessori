@@ -137,7 +137,7 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-          <li class="header">KidsWord Monteshwori</li>
+          <li class="header">KidsWorld Montessori</li>
           <li class="treeview">
             <a href="{{route('dashboard.index')}}">
               <i class="fa fa-dashboard"></i> <span>Dashboard</span>
