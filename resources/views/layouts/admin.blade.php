@@ -74,7 +74,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>KWM</b></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b> KidsWord </b></span>
+        <span class="logo-lg"><b> Kids Montessori </b></span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -95,13 +95,13 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <span class="hidden-xs"> KidsWord</span>
+                <span class="hidden-xs"> KidsWorld Montessori</span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
                   <p>
-                    KidsWord
+                    KidsWord Montessori
                   </p>
                 </li>
                 <!-- Menu Body -->
