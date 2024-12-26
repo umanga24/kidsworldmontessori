@@ -2,7 +2,7 @@
 @section('content')
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(https://whitegold.placeforvisit.com/images/listing/1710849191.jpg)">
+<section class="page-title" style="background-image:url(images/gallery.jpg)">
     <div class="auto-container">
         <h1>Gallery</h1>
         <ul class="page-breadcrumb">

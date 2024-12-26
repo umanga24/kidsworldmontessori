@@ -56,11 +56,11 @@ class DefaultController extends Controller
     {
         $sliders = $this->slider->orderBy('created_at', 'desc')->take(3)->get();
         $product_category = $this->product_category->with(['products'])->get();
-        $services = $this->service->orderBy('created_at', 'desc')->where('publish', 1)->latest()->take(3)->get();
+        $services = $this->service->orderBy('created_at', 'desc')->where('publish', 1)->latest()->get();
         $notices = $this->notice->orderBy('created_at', 'desc')->where('publish', 1)->get();
         $allnews = $this->news->orderBy('created_at', 'desc')->where('publish', 1)->take(10)->get();
         $downloads = $this->download->orderBy('created_at', 'desc')->where('publish', 1)->take(3)->get();
-        $galleries = $this->gallery->orderBy('created_at','desc')->get();
+        $galleries = $this->gallery->orderBy('created_at', 'desc')->get();
         //dd($galleries);
         return view('front.index', compact('sliders', 'product_category', 'services', 'notices', 'allnews', 'downloads', 'galleries'));
     }

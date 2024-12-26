@@ -3,7 +3,7 @@
 
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(https://whitegold.placeforvisit.com/images/listing/1710849191.jpg)">
+<section class="page-title" style="background-image:url(images/team.jpg)">
     <div class="auto-container">
         <h1>Our Team</h1>
         <ul class="page-breadcrumb">

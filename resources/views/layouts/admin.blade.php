@@ -158,7 +158,7 @@
 
             </ul>
           </li>
-          <!-- <li class="treeview ">
+          <li class="treeview ">
             <a href="#">
               <i class="fa fa-gift"></i> <span>Projects</span>
               <span class="pull-right-container">
@@ -170,7 +170,7 @@
               <li class=""><a href="{{route('project.index')}}"><i class="fa fa-circle-o text-yellow"></i> All Projects</a></li>
 
             </ul>
-          </li> -->
+          </li>
 
 
           <li class="treeview ">
@@ -188,7 +188,7 @@
           </li>
 
 
-          <!-- <li class="treeview ">
+          <li class="treeview ">
             <a href="#">
               <i class="fa fa-gift"></i> <span>Updates</span>
               <span class="pull-right-container">
@@ -200,7 +200,7 @@
               <li class=""><a href="{{route('news.index')}}"><i class="fa fa-circle-o text-yellow"></i> All Updates</a></li>
 
             </ul>
-          </li> -->
+          </li>
           <li class="treeview ">
             <a href="#">
               <i class="fa fa-gift"></i> <span>Notice</span>

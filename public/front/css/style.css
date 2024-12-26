@@ -32,7 +32,7 @@ font-family: 'Alegreya Sans', sans-serif;*/
 :root{
 	--main-color:#389ADD;
 
-	--primary-font-family: 'Cabin Sketch', cursive;
+	--primary-font-family: 'Frank Ruhl Libre', serif;
 	--secondary-font-family: 'Handlee', cursive
 }
 
@@ -11031,3 +11031,137 @@ table, th, td {
 
 /*End Gallery Section in home Page
 
+/* START SERVICES*/
+/* Main Section Styling */
+
+/* Main Section Styling */
+.custom-services-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.custom-sec-title h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.custom-sec-title .custom-theme-color {
+    color: #007bff; /* Theme color */
+}
+
+/* Grid Layout */
+.custom-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-services-block {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.custom-services-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.custom-image {
+    height: 250px; /* Fixed image height */
+    overflow: hidden;
+    position: relative;
+    background: #f4f4f4;
+}
+
+.custom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.custom-image img:hover {
+    transform: scale(1.1);
+}
+
+/* Content Styling */
+.custom-lower-content {
+    padding: 20px;
+}
+
+.custom-lower-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.custom-lower-content h3 a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.custom-lower-content h3 a:hover {
+    color: #0056b3;
+}
+
+.custom-lower-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.custom-service-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.custom-service-link:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .custom-services-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-services-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+
+    .custom-image {
+        height: 200px; /* Slightly smaller images for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-services-grid {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+
+    .custom-image {
+        height: 180px; /* Adjusted image height for smaller devices */
+    }
+}
+
+/* END SERVICES */

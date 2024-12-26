@@ -106,10 +106,10 @@
                                             <ul>
                                                 <li><a href="{{route('downloads')}}">Documents</a></li>
                                                 <li><a href="{{route('reports')}}">Report</a></li>
-                                            </ul>
-                                        </li> -->
-                                            <!-- <li><a href="{{route('news')}}">Updates</a>
-                                        </li> -->
+                                            </ul> -->
+                                        </li> 
+                                            <li><a href="{{route('news')}}">Updates</a>
+                                        </li> 
 
                                         <li><a href="{{route('gallery')}}">Gallery</a>
 
@@ -173,10 +173,10 @@
                                         <ul>
                                             <li><a href="{{route('downloads')}}">Documents</a></li>
                                             <li><a href="{{route('reports')}}">Report</a></li>
-                                        </ul>
-                                    </li> -->
-                                        <!-- <li><a href="{{route('news')}}">Updates</a>
-                                    </li> -->
+                                        </ul> -->
+                                    </li> 
+                                         <li><a href="{{route('news')}}">Updates</a>
+                                    </li> 
 
                                     <li><a href="{{route('gallery')}}">Gallery</a>
 

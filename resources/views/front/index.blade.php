@@ -7,13 +7,13 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="noticeModalLabel">Important Notice</h5>
+                <h5 class="modal-title" id="noticeModalLabel">Important Notice </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <img src="{{asset('images/thumbnail/'.$notice->image)}}" alt="img"> class="img-fluid">
+                <img src="{{asset('images/thumbnail/'.$notice->image)}}" alt="img" class="img-fluid">
 
             </div>
 
@@ -48,7 +48,7 @@
 </section>
 <!--End Main Slider-->
 
-<!-- <div class="marquee-container" onmouseover="pauseMarquee()" onmouseout="resumeMarquee()">
+<div class="marquee-container" onmouseover="pauseMarquee()" onmouseout="resumeMarquee()">
     <div class="btn-title">Updates:</div>
     <marquee behavior="scroll" direction="left" scrollamount="5" id="news-marquee">
         @foreach($allnews as $key=>$news)
@@ -60,7 +60,7 @@
         @endif
         @endforeach
     </marquee>
-</div> -->
+</div>
 <!--Welcome Section-->
 <div class="inner-box" style="background-image: url(images/Banner9.jpg)">
     <section class="welcome-section">
@@ -126,7 +126,7 @@
 
             <div class="sec-title centered">
                 <div class="title-inner">
-                    <h2>Our <span class="theme_color">Lates Gallery</span></h2>
+                    <h2>Our <span class="theme_color">Services</span></h2>
                 </div>
             </div>
         </div>
@@ -138,8 +138,8 @@
                 <div class="inner-box">
                     <div class="image-outer">
                         <div class="image">
-                    <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="" />
-                            <a href="{{route('serviceInner',$service->slug)}}" class="overlay-box lightbox-image"></a> 
+                            <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="" />
+                            <a href="{{route('serviceInner',$service->slug)}}" class="overlay-box lightbox-image"></a>
                         </div>
                     </div>
                     <div class="lower-content">
@@ -158,6 +158,33 @@
         </div>
     </div>
 </section> -->
+<section class="custom-services-section">
+    <div class="custom-outer-container">
+        <div class="custom-auto-container">
+            <div class="custom-sec-title">
+                <h2>Our <span class="custom-theme-color">Services</span></h2>
+            </div>
+            <div class="custom-services-grid">
+                @foreach($services as $service)
+                <div class="custom-services-block">
+                    <div class="custom-inner-box">
+                        <div class="custom-image">
+                            <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="{{$service->title}}">
+                        </div>
+                        <div class="custom-lower-content">
+                            <h3><a href="{{route('serviceInner',$service->slug)}}">{{$service->title}}</a></h3>
+                            <!-- <p>{{$service->short_description}}</p> -->
+                            <!-- <a href="{{route('serviceInner',$service->slug)}}" class="custom-service-link">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 <!--End Service Section -->

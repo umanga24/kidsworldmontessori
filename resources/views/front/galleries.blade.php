@@ -3,7 +3,7 @@
 
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(https://whitegold.placeforvisit.com/images/listing/1710849191.jpg)">
+<!-- <section class="page-title" style="background-image:url(images/gallery.jpg)">
     <div class="auto-container">
         <h1>Gallery</h1>
         <ul class="page-breadcrumb">
@@ -11,12 +11,12 @@
             <li>Gallery</li>
         </ul>
     </div>
-</section>
+</section> -->
 <!--End Page Title-->
 
 <!--Gallery Section Three-->
 
-<section class="gallery-section-three" style="background-image: url(images/Banner18.jpg)">
+<section class="gallery-section-three" style="background-image: url(images/Banner8.jpg)">
     <div class="auto-container">
         <div class="row clearfix">
 
@@ -39,7 +39,7 @@
             </div>
             @endforeach
         </div>
-    </div>  
+    </div>
 </section>
 <!--End Gallery Section Three-->
 
