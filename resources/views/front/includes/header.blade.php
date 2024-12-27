@@ -62,6 +62,7 @@
                                 </li>
                                 <li class="text-white"><a class="text-white" href=""><i class="fa fa-envelope-o text-white mr-2" aria-hidden="true"></i> <a class="text-white" href="mailto:{{$dash_setting->email}}">{{$dash_setting->email}} </a></a>
                                 </li>
+                                <li> <p>{{ \Carbon\Carbon::now()->format('l, jS F Y') }}</p></li>
                             </ul>
                         </div>
 
