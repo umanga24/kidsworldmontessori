@@ -84,7 +84,7 @@
 						<input type="text" name="twitter" value="{{$detail->twitter}}" class="form-control">
 					</div>
 					<div class="form-group">
-						<label>LinkedIn</label>
+						<label>Youtube</label>
 						<input type="text" name="linkedin" value="{{$detail->linkedin}}" class="form-control">
 					</div>
 				</div>

@@ -28,9 +28,9 @@
                             </div>
                         </div>
                     </div>
-                    <!--  <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                     <!-- <div class="footer-column col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
-                        <h2>Useful Links</h2>
+                        <h2>Payment Mode</h2>
                         <div class="row clearfix">
 
                             <div class="column col-lg-6 col-md-6 col-sm-12">
@@ -83,12 +83,15 @@
                                 </form>
                             </div> -->
                                 <!--Social Icon One-->
+                                <h2>Social Media</h2>
                                 <ul class="social-icon-one">
-                                    <li><a href="{{$dash_setting->facebook}}"><span class="icon fa fa-facebook"></span>facebook</a></li>
+                                    <li><a href="{{$dash_setting->facebook}}"target="_blank"><span class="icon fa fa-facebook"></span>facebook</a></li>
                                     <!-- <li><a href="{{$dash_setting->twitter}}"><span class="icon fa fa-twitter"></span>twitter</a></li>
                                 <li><a href="{{$dash_setting->linkedin}}"><span class="icon fa fa-linkedin"></span>linkedin</a></li> -->
-                                    <li><a href="{{$dash_setting->instagram}}"><span class="icon fa fa-instagram"></span>instagram</a></li>
+                                    <li><a href="{{$dash_setting->instagram}}"target="_blank"><span class="icon fa fa-instagram"></span>instagram</a></li>
+                                    <li><a href="{{$dash_setting->linkedin}}"target="_blank"><span class="icon fa fa-youtube"></span>Youtube</a></li>
                                 </ul>
+                               
                             </div>
                         </div>
                     </div>
