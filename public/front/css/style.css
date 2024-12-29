@@ -10729,7 +10729,7 @@ h3.entry-title {
     padding:20px 10px;
 }
 .gallery-box h4{
-    color:#000;
+    color:#ff0036;
 }
 table, th, td {
     border-collapse: collapse;
@@ -10824,7 +10824,7 @@ table, th, td {
 
 .inner-column p {
     /* font-size: 18px; */
-    color: #e11217;
+    color: #0d00ff;
     font-weight: 500;
 }
 
