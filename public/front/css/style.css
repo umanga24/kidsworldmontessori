@@ -10740,6 +10740,7 @@ table, th, td {
     height:500px;
     width:100%;
     object-fit:cover;
+	border-radius: 30px;
 }
 
 

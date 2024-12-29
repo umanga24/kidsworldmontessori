@@ -4,114 +4,119 @@
 <!--Page Title-->
 <div class="inner-box" style="background-image: url(images/Banner15.jpg)">
 
-<section class="page-title" style="background-image:url('{{asset('images/main/'.$page->image2)}}')">
-    <div class="auto-container">
-        <h1>About Our Montessori</h1>
-        <ul class="page-breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li>About Us</li>
-        </ul>
-    </div>
-</section>
-<!--End Page Title-->
-
-<!--Company Section-->
-<section class="company-section">
-    <div class="auto-container">
-
-        <!--Sec Title-->
-        <div class="sec-title">
-            <h2>Kids world <span class="theme_color">Montessori</span> </h2>
+    <section class="page-title" style="background-image:url('{{asset('images/main/'.$page->image2)}}')">
+        <div class="auto-container">
+            <h1>About Our Montessori</h1>
+            <ul class="page-breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li>About Us</li>
+            </ul>
         </div>
-        <div class="row clearfix">
+    </section>
+    <!--End Page Title-->
 
-            <!--Mission Column-->
-            <div class="mission-column col-lg-8 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="text">
-                        <p>
-                            {!!$page->description!!}
-                        </p>
+    <!--Company Section-->
+    <section class="company-section">
+        <div class="auto-container">
+
+            <!--Sec Title-->
+            <div class="sec-title">
+                <h2>Kids world <span class="theme_color">Montessori</span> </h2>
+            </div>
+            <div class="row clearfix">
+
+                <!--Mission Column-->
+                <div class="mission-column col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="text">
+                            <p>
+                                {!!$page->description!!}
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
-            </div>
+                <div class="col-lg-4">
+                    <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
+                </div>
 
+
+            </div>
 
         </div>
-
-    </div>
-</section>
+    </section>
 
 
 
-<section class="company-section">
-    <div class="auto-container">
+    <section class="company-section">
+        <div class="auto-container">
 
-        <!--Sec Title-->
-        <div class="sec-title">
-            <h2>Why Choose  <span class="theme_color">Kids world Montessori</span> </h2>
-        </div>
-        <div class="row clearfix">
+            <!--Sec Title-->
+            <div class="sec-title">
+                <h2>Why Choose <span class="theme_color">Kids world Montessori</span> </h2>
+            </div>
+            <div class="row clearfix">
 
-            <!--Mission Column-->
-            <div class="mission-column col-lg-8 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="text">
-                        <p>
-                            {!!$page->our_vission_desc!!}
-                        </p>
+                <!--Mission Column-->
+
+                <div class="col-lg-4">
+                    <img class="ab-img" src="{{asset('images/main/'.$page->image3)}}">
+                </div>
+                <div class="mission-column col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="text">
+                            <p>
+                                {!!$page->our_vission_desc!!}
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="col-lg-4">
-                <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
-            </div> -->
-
-
-        </div>
-
-    </div>
-</section>
-<!--End Company Section-->
-
-
-
-<section class="company-section">
-    <div class="auto-container">
-
-        <!--Sec Title-->
-        <div class="sec-title">
-            <h2>Our  <span class="theme_color">Services</span> </h2>
-        </div>
-        <div class="row clearfix">
-
-            <!--Mission Column-->
-            <div class="mission-column col-lg-8 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="text">
-                        <p>
-                            {!!$page->our_mission_desc!!}
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                 <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
             </div> -->
 
 
+            </div>
+
         </div>
-
-    </div>
-</section>
-<!--End Company Section-->
+    </section>
+    <!--End Company Section-->
 
 
 
-{{--<!--Fun Facts Section-->
+    <section class="company-section">
+        <div class="auto-container">
+
+            <!--Sec Title-->
+            <div class="sec-title">
+                <h2>Our <span class="theme_color">Services</span> </h2>
+            </div>
+            <div class="row clearfix">
+
+                <!--Mission Column-->
+
+                <div class="mission-column col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="text">
+                            <p>
+                                {!!$page->our_mission_desc!!}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img class="ab-img" src="{{asset('images/main/'.$page->image4)}}">
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--End Company Section-->
+
+
+
+    {{--<!--Fun Facts Section-->
 <div class="fact-counter-section style-two">
     <div class="fact-counter">
         <div class="auto-container">
@@ -166,4 +171,4 @@
 
 
 
-@endsection
+    @endsection

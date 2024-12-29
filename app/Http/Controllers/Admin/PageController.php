@@ -94,7 +94,7 @@ class PageController extends Controller
     {
         $page = $this->page->findOrFail($id);
     
-        $data = $request->except('publish','title','image1','image2');
+        $data = $request->except('publish','title','image1','image2','image3','image4');
         if($request->image1){
             $image=$request->file('image1');
             $name= time().'img1.'.$image->getClientOriginalExtension();
@@ -109,6 +109,18 @@ class PageController extends Controller
             $name= time().'img2.'.$image->getClientOriginalExtension();
             $image->move(public_path('images/main'),$name);
             $data['image2']=$name;     
+        }
+        if($request->image3){
+            $image=$request->file('image3');
+            $name= time().'img3.'.$image->getClientOriginalExtension();
+            $image->move(public_path('images/main'),$name);
+            $data['image3']=$name;     
+        }
+        if($request->image4){
+            $image=$request->file('image4');
+            $name= time().'img4.'.$image->getClientOriginalExtension();
+            $image->move(public_path('images/main'),$name);
+            $data['image4']=$name;     
         }
 
         $this->page->update($data,$id);

@@ -150,7 +150,31 @@
 							<img src="{{asset('images/main/'.$detail->image2)}}" width="150" height="150" class="img-responsive">
 							@endif
 						</div>
+
 						@endif
+
+
+
+						@if( $detail->slug=='about-us')
+						<div class="form-group">
+							<label>Why Choose use Image</label>
+							<input type="file" name="image3" class="form-control">
+							@if($detail->image3)
+							<img src="{{asset('images/main/'.$detail->image3)}}" width="150" height="150" class="img-responsive">
+							@endif
+						</div>
+
+						<div class="form-group">
+							<label>Our Services Image</label>
+							<input type="file" name="image4" class="form-control">
+							@if($detail->image4)
+							<img src="{{asset('images/main/'.$detail->image4)}}" width="150" height="150" class="img-responsive">
+							@endif
+						</div>
+						
+						@endif
+
+
 					</div>
 				</div>
 				<div class="box box-warning">

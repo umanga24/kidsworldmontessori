@@ -75,6 +75,8 @@ return array(
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+    'App\\Repositories\\Banner\\BannerInterface' => $baseDir . '/app/Repositories/Banner/BannerInterface.php',
+    'App\\Repositories\\Banner\\BannerRepository' => $baseDir . '/app/Repositories/Banner/BannerRepository.php',
     'App\\Repositories\\Blog\\BlogInterface' => $baseDir . '/app/Repositories/Blog/BlogInterface.php',
     'App\\Repositories\\Blog\\BlogRepository' => $baseDir . '/app/Repositories/Blog/BlogRepository.php',
     'App\\Repositories\\Branch\\BranchInterface' => $baseDir . '/app/Repositories/Branch/BranchInterface.php',

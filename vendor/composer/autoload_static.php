@@ -588,6 +588,8 @@ class ComposerStaticInit3502ff784889b2c0bf389af19ea00576
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Repositories\\Banner\\BannerInterface' => __DIR__ . '/../..' . '/app/Repositories/Banner/BannerInterface.php',
+        'App\\Repositories\\Banner\\BannerRepository' => __DIR__ . '/../..' . '/app/Repositories/Banner/BannerRepository.php',
         'App\\Repositories\\Blog\\BlogInterface' => __DIR__ . '/../..' . '/app/Repositories/Blog/BlogInterface.php',
         'App\\Repositories\\Blog\\BlogRepository' => __DIR__ . '/../..' . '/app/Repositories/Blog/BlogRepository.php',
         'App\\Repositories\\Branch\\BranchInterface' => __DIR__ . '/../..' . '/app/Repositories/Branch/BranchInterface.php',
