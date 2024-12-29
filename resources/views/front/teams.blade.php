@@ -86,7 +86,7 @@
             <section class="team-section">
                 <!--Sec Title-->
                 <div class="sec-title text-center">
-                    <h2>Staff <span class="theme_color">Team</span></h2>
+                    <h2>Teacher <span class="theme_color">Team</span></h2>
                 </div>
 
                 <div class="row clearfix">
