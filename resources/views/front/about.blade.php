@@ -44,6 +44,69 @@
 
     </div>
 </section>
+
+
+
+<section class="company-section">
+    <div class="auto-container">
+
+        <!--Sec Title-->
+        <div class="sec-title">
+            <h2>Why Choose  <span class="theme_color">Kids world Montessori</span> </h2>
+        </div>
+        <div class="row clearfix">
+
+            <!--Mission Column-->
+            <div class="mission-column col-lg-8 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="text">
+                        <p>
+                            {!!$page->our_vission_desc!!}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4">
+                <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
+            </div> -->
+
+
+        </div>
+
+    </div>
+</section>
+<!--End Company Section-->
+
+
+
+<section class="company-section">
+    <div class="auto-container">
+
+        <!--Sec Title-->
+        <div class="sec-title">
+            <h2>Our  <span class="theme_color">Services</span> </h2>
+        </div>
+        <div class="row clearfix">
+
+            <!--Mission Column-->
+            <div class="mission-column col-lg-8 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="text">
+                        <p>
+                            {!!$page->our_mission_desc!!}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4">
+                <img class="ab-img" src="{{asset('images/main/'.$page->image1)}}">
+            </div> -->
+
+
+        </div>
+
+    </div>
+</section>
 <!--End Company Section-->
 
 
