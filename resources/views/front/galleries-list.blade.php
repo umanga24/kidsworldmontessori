@@ -2,7 +2,7 @@
 @section('content')
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(images/gallery.jpg)">
+<section class="page-title" style="background-image:url('{{asset('images/main/'.$banner->first()->gallery)}}')">
     <div class="auto-container">
         <h1>Gallery</h1>
         <ul class="page-breadcrumb">

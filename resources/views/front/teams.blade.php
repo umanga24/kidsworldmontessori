@@ -3,7 +3,7 @@
 
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(images/team.jpg)">
+<section class="page-title" style="background-image:url('{{asset('images/main/'.$banner->first()->team)}}')">
     <div class="auto-container">
         <h1>Our Team</h1>
         <ul class="page-breadcrumb">

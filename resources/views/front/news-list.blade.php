@@ -3,7 +3,7 @@
 
 
 <!--Page Title-->
-<section class="page-title" style="background-image:url(images/updates.jpg)">
+<section class="page-title" style="background-image:url('{{asset('images/main/'.$banner->first()->updates)}}')">
     <div class="auto-container">
         <h1>Updates</h1>
     </div>

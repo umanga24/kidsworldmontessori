@@ -18,7 +18,7 @@ Route::get('command', function () {
 
     /* php artisan migrate */
     \Artisan::call('config:cache');
-   // dd("Done");
+    // dd("Done");
 });
 
 Route::group(['namespace' => 'Admin'], function () {
@@ -49,20 +49,20 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'adm
     Route::resource('contact', 'ContactController');
     Route::resource('branch', 'BranchController');
     Route::resource('blog', 'BlogController');
-    Route::resource('report','ReportController');
+    Route::resource('report', 'ReportController');
     Route::post('gallerydetail/store', 'GalleryDetailController@store')->name('gallerydetail.store');
     Route::delete('gallerydetail/destroy', 'GalleryDetailController@destroy')->name('gallerydetail.destroy');
+    Route::resource('banner', 'BannerController');
 
-   
+
 
 
     Route::resource('gallerydetail', 'GalleryDetailController')->names([
-    'index' => 'gallerydetail.index',
-    'create' => 'gallerydetail.create'
-    
-    // other route names
-]);
+        'index' => 'gallerydetail.index',
+        'create' => 'gallerydetail.create'
 
+        // other route names
+    ]);
 });
 
 
@@ -102,5 +102,5 @@ Route::group(['namespace' => 'Front'], function () {
     Route::get('galleries', 'DefaultController@galleries')->name('galleries');
     Route::get('test', 'DefaultController@test')->name('test');
     //Route::get('reports', 'DefaultController@report')->name('report');
-    
+
 });

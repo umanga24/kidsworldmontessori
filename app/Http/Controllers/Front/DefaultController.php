@@ -23,17 +23,18 @@ use App\Repositories\ShareHolder\ShareHolderRepository;
 use App\Repositories\Gallery\GalleryRepository;
 use App\Repositories\Report\ReportRepository;
 use App\Repositories\GalleryDetail\GalleryDetailRepository;
-
+use App\Repositories\Banner\BannerRepository;
 use App\Models\RateCategory;
 use App\Models\Contact;
 use App\Models\Application;
 use Mail;
 use App\Rules\ReCaptcha;
 use App\Models\GalleryDetail;
+use App\Models\Banner;
 
 class DefaultController extends Controller
 {
-    public function __construct(SliderRepository $slider, ProductCategoryRepository $product_category, ServiceRepository $service, NoticeRepository $notice, NewsRepository $news, DownloadRepository $download, TeamRepository $team, TeamCategoryRepository $team_category, FinancialCategoryRepository $financial_category, CareerRepository $career, BranchRepository $branch, BlogRepository $blog, ShareHolderRepository $share_holder, GalleryRepository $gallery, ReportRepository $report, GalleryDetailRepository $gallerydetail)
+    public function __construct(SliderRepository $slider, ProductCategoryRepository $product_category, ServiceRepository $service, NoticeRepository $notice, NewsRepository $news, DownloadRepository $download, TeamRepository $team, TeamCategoryRepository $team_category, FinancialCategoryRepository $financial_category, CareerRepository $career, BranchRepository $branch, BlogRepository $blog, ShareHolderRepository $share_holder, GalleryRepository $gallery, ReportRepository $report, GalleryDetailRepository $gallerydetail, BannerRepository $banner)
     {
         $this->slider = $slider;
         $this->product_category = $product_category;
@@ -51,6 +52,7 @@ class DefaultController extends Controller
         $this->gallery = $gallery;
         $this->report = $report;
         $this->gallerydetail = $gallerydetail;
+        $this->banner = $banner;
     }
     public function index()
     {
@@ -67,14 +69,16 @@ class DefaultController extends Controller
     public function news()
     {
         $allnews = $this->news->orderBy('created_at', 'desc')->where('publish', 1)->paginate(12);
-        return view('front.news-list', compact('allnews'));
+        $banner = $this->banner->select(['updates'])->get();
+        return view('front.news-list', compact('allnews', 'banner'));
     }
 
     public function teams()
     {
         $teams = $this->team->where('publish', 1)->orderBy('sort_order', 'asc')->get();
-
-        return view('front.teams', compact('teams'));
+        $banner = $this->banner->select(['team'])->get();
+        
+        return view('front.teams', compact('teams','banner'));
     }
 
     public function reports()
@@ -126,11 +130,13 @@ class DefaultController extends Controller
     public function gallery()
     {
         $galleries = $this->gallery->orderBy('created_at', 'desc')->paginate(10);
-        return view('front.galleries-list', compact('galleries'));
+        $banner = $this->banner->select(['gallery'])->get();
+        return view('front.galleries-list', compact('galleries','banner'));
     }
     public function gallerydetail($id)
     {
         $galleryDetail = $this->gallerydetail->where('gallery_id', $id)->get();
+        $banner = $this->banner->select('gallery')->get();
         return view('front.galleries', compact('galleryDetail'));
     }
 
