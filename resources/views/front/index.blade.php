@@ -158,31 +158,36 @@
         </div>
     </div>
 </section> -->
+
+
 <section class="custom-services-section">
-    <div class="custom-outer-container">
-        <div class="custom-auto-container">
-            <div class="custom-sec-title">
-                <h2>Our <span class="custom-theme-color">Services</span></h2>
-            </div>
-            <div class="custom-services-grid">
-                @foreach($services as $service)
-                <div class="custom-services-block">
-                    <div class="custom-inner-box">
-                        <div class="custom-image">
-                            <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="{{$service->title}}">
-                        </div>
-                        <div class="custom-lower-content">
-                            <h3><a href="">{{$service->title}}</a></h3>
-                            <!-- <p>{{$service->short_description}}</p> -->
-                            <!-- <a href="{{route('serviceInner',$service->slug)}}" class="custom-service-link">Learn More</a> -->
+    <div class="inner-box" style="background-image: url(images/Banner2.jpg)">
+        <div class="custom-outer-container">
+            <div class="custom-auto-container">
+                <div class="custom-sec-title">
+                    <h2>Our <span class="custom-theme-color">Services</span></h2>
+                </div>
+                <div class="custom-services-grid">
+                    @foreach($services as $service)
+                    <div class="custom-services-block">
+                        <div class="custom-inner-box">
+                            <div class="custom-image">
+                                <img src="{{asset('images/thumbnail/'.$service->image)}}" alt="{{$service->title}}">
+                            </div>
+                            <div class="custom-lower-content">
+                                <h3><a href="">{{$service->title}}</a></h3>
+                                <!-- <p>{{$service->short_description}}</p> -->
+                                <!-- <a href="{{route('serviceInner',$service->slug)}}" class="custom-service-link">Learn More</a> -->
+                            </div>
                         </div>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
             </div>
         </div>
     </div>
 </section>
+
 
 
 

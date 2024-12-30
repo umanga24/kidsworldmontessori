@@ -11,6 +11,7 @@
 <!--End Page Title-->
 
 <!-- Blog Page Section -->
+<div class="backgroundimage" style="background-image: url(images/Banner2.jpg)">
 <section class="blog-page-section">
     <div class="auto-container">
         <div class="row clearfix">
@@ -19,7 +20,7 @@
             <div class="news-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="blog-detail.php"><img src="{{asset('images/thumbnail/'.$news->image)}}" alt="notice" /></a>
+                        <a href="{{route('newsInner',$news->slug)}}"><img src="{{asset('images/thumbnail/'.$news->image)}}" alt="notice" /></a>
 
                     </div>
                     <div class="lower-content">
@@ -56,7 +57,7 @@
 
 
 
-
+</div>
 
 
 @endsection

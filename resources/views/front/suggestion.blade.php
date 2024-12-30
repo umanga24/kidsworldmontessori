@@ -28,7 +28,7 @@
 <!--End Page Title-->
 
 <!--Company Section-->
-<section class="faq-page-section message-page-section" style="background-image: url(images/Banner15.jpg)>
+<section class="faq-page-section message-page-section" style="background-image: url(images/Banner105.jpg)">
     <div class="auto-container">
         <div class="message-wrapper">
             <div class="row">
