@@ -1,16 +1,16 @@
 @extends('layouts.admin')
-@section('title','Projects List')
+@section('title','Services List')
 @push('styles')
 <link rel="stylesheet" href="{{ asset('backend/plugins/datatables/dataTables.bootstrap.css') }}">
 @endpush
 @section('content')
 <section class="content-header">
 	
-	<h1>Projects<small>List</small></h1>
-	<a href="{{route('project.create')}}" class="btn btn-success">Add Projects</a>
+	<h1>Services<small>List</small></h1>
+	<a href="{{route('project.create')}}" class="btn btn-success">Add Services</a>
 	<ol class="breadcrumb">
 		<li><a href=""><i class="fa fa-dashboard"></i>Dashboard</a></li>
-		<li><a href="">Projects</a></li>
+		<li><a href="">Services</a></li>
 		<li><a href="">list</a></li>
 	</ol>
 </section>

@@ -1,5 +1,5 @@
 @extends('layouts.admin')	
-@section('title','Add Project')
+@section('title','Add Service')
 @push('admin.styles')
 <!-- Date Picker -->
 <link rel="stylesheet" href="{{ asset('backend/plugins/datepicker/datepicker3.css') }}">
@@ -10,10 +10,10 @@
 @endpush
 @section('content')
 <section class="content-header">
-	<h1>Projects<small>Add</small></h1>
+	<h1>Services<small>Add</small></h1>
 	<ol class="breadcrumb">
 		<li><a href=""><i class="fa fa-dashboard"></i>Dashboard</a></li>
-		<li><a href="">Projects</a></li>
+		<li><a href="">Services</a></li>
 		<li><a href="">Add</a></li>
 	</ol>
 </section>
@@ -39,7 +39,7 @@
 		<div class="col-md-8">
 			<div class="box box-primary">
 				<div class="box-header with-heading">
-					<h3 class="box-title">Add Project</h3>
+					<h3 class="box-title">Add Service</h3>
 				</div>
 				<div class="box-body">
 					<div class="form-group">
