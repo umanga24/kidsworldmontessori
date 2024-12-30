@@ -10707,11 +10707,15 @@ h3.entry-title {
     border-left: 10px solid var(--main-color);
     padding: 5px 30px;
 	background-color: #f3f3f3;
+	border-radius: 200px;
+
 }
 .message-wrapper img{
 	height: 350px;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 200px;
+	
 }
 
 .message-wrapper p{
