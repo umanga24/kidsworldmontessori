@@ -495,7 +495,7 @@ img{
 
 .sec-title h2{
 	position:relative;
-	color:#1e1e29;
+	color:#e60977;
 	font-size:30px;
 	font-weight:700;
 	line-height:1.4em;
@@ -2969,7 +2969,7 @@ img{
 
 .news-block .inner-box .lower-content h3 a{
 	position: relative;
-	color: #262626;
+	color: #ff0023;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -2983,7 +2983,7 @@ img{
 
 .news-block .inner-box .lower-content .text{
 	position: relative;
-	color: #7c7b7b;
+	color: #dc3545;
 	font-size: 18px;
 	line-height: 1.6em;
 	margin-bottom: 25px;
@@ -7782,7 +7782,7 @@ img{
 	position: relative;
 	display: block;
 	font-size: 24px;
-	color: #262626;
+	color: #dc3545;
 	font-weight: 500;
 	line-height: 1.2em;
 	text-transform: capitalize;
@@ -7971,7 +7971,7 @@ img{
 }
 
 .sidebar .popular-posts .post .text a{
-	color:#262626;
+	color:#ff0023;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -8312,7 +8312,7 @@ img{
 
 .blog-single .inner-box .upper-box h2{
 	position: relative;
-	color: #262626;
+	color: #ff0023;
 	font-size: 26px;
 	font-weight: 500;
 	line-height: 1.4em;
