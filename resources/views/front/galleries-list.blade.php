@@ -14,7 +14,7 @@
 <!--End Page Title-->
 
 <!--Gallery Section Three-->
-<section class="gallery-section-three gallery-list" style="background-image: url(images/1.png)">
+<section class="gallery-section-three gallery-list" style="background-image: url(images/Banner106.jpg)">
     <div class="auto-container">
         <div class="row clearfix">
 
