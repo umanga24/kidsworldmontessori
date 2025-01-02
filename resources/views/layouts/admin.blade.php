@@ -147,7 +147,7 @@
             </a>
           <li class="treeview ">
             <a href="#">
-              <i class="fa fa-gift"></i> <span>Slider</span>
+              <i class="fa fa-gift"></i> <span>Sliders</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
