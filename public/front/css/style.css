@@ -11020,7 +11020,7 @@ table, th, td {
 .image-wrapper img {
     width: 100%; /* Make the image fill the width of the frame */
     height: 100%; /* Make the image fill the height of the frame */
-    object-fit: relative; /* Crop the image to fit while maintaining aspect ratio */
+    object-fit: cover; /* Crop the image to fit while maintaining aspect ratio */
     display: block; /* Remove extra spaces below images */
 }
 
