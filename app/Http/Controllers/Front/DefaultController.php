@@ -147,7 +147,8 @@ class DefaultController extends Controller
     // }
     public function contactUs()
     {
-        return view('front.contact');
+        $banner = $this->banner->select(['contactus'])->get();
+        return view('front.contact', compact('banner'));
     }
     public function saveContact(Request $request, SettingRepository $setting)
     {

@@ -1,7 +1,7 @@
 @extends('front.includes.app')
 @section('content')
 
-<section class="page-title" style="background-image:url(images/Banner6.jpg)">
+<section class="page-title" style="background-image:url('{{asset('images/main/'.$banner->first()->contactus)}}')">
     <div class="auto-container">
         <h1>Get Touch With Us</h1>
         <ul class="page-breadcrumb">
